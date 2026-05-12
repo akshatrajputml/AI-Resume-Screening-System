@@ -1,1 +1,142 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyOfDYi7Rk5kX68qkW8qlaQ2"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":1,"metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"3ay0BDrH0uKS","executionInfo":{"status":"ok","timestamp":1778583285862,"user_tz":-330,"elapsed":11,"user":{"displayName":"Akshat Rajput","userId":"05622833143684316761"}},"outputId":"edce8018-99b5-4a68-fdae-4062bfad7524"},"outputs":[{"output_type":"stream","name":"stdout","text":["Writing README.md\n"]}],"source":["%%writefile README.md\n","\n","# AI Resume Screening & ATS System\n","\n","An AI-powered Resume Screening System that analyzes resumes, extracts skills, calculates ATS scores, and recommends suitable job roles using NLP and Machine Learning.\n","\n","## Features\n","- Resume Upload\n","- Skill Extraction\n","- ATS Score Calculation\n","- Job Recommendation\n","- Missing Skills Detection\n","- Improvement Suggestions\n","\n","## Tech Stack\n","- Python\n","- Streamlit\n","- Scikit-learn\n","- NLP\n","- TF-IDF\n","- Cosine Similarity\n","\n","## How to Run\n","\n","pip install -r requirements.txt\n","\n","streamlit run app.py\n","\n","## Author\n","Akshat Singh"]},{"cell_type":"code","source":[],"metadata":{"id":"XDQ1vr_e0vem"},"execution_count":null,"outputs":[]}]}
+# AI Resume Screening & ATS System
+
+An AI-powered Resume Screening and ATS (Applicant Tracking System) Analyzer built using Python, NLP, Machine Learning, and Streamlit.
+
+This application analyzes resumes, extracts skills, calculates ATS scores, recommends suitable job roles, and provides improvement suggestions based on industry-required skills.
+
+---
+
+# Live Demo
+
+Add your deployed Streamlit link here:
+
+https://ai-resume-screening-system-crbdwqg6buvoee2klrjmvy
+.streamlit.app
+
+---
+
+# Features
+
+- Resume Upload Support (PDF & DOCX)
+- Automatic Resume Parsing
+- AI-Based Skill Extraction
+- ATS Score Calculation
+- Job Role Recommendation System
+- Missing Skills Detection
+- Improvement Suggestions
+- Interactive Streamlit Interface
+
+---
+
+# Tech Stack
+
+## Programming Language
+- Python
+
+## Libraries & Frameworks
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- pdfplumber
+- python-docx
+
+## Machine Learning & NLP
+- TF-IDF Vectorization
+- Cosine Similarity
+- NLP-based Skill Matching
+
+---
+
+# Project Workflow
+
+1. User uploads resume
+2. Resume text extraction
+3. Skill extraction from resume
+4. TF-IDF vectorization
+5. Job similarity matching
+6. ATS score calculation
+7. Missing skills identification
+8. AI-powered recommendations displayed
+
+---
+
+# Supported Job Roles
+
+- Data Scientist
+- AI Engineer
+- Machine Learning Engineer
+- Data Analyst
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/AI-Resume-Screening-System.git
+```
+
+Move into the project directory:
+
+```bash
+cd AI-Resume-Screening-System
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# Project Structure
+
+```bash
+AI-Resume-Screening-System/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+```
+
+---
+
+# Future Improvements
+
+- Advanced NLP using BERT
+- AI Resume Feedback using LLMs
+- Resume Ranking System
+- Job Description Matching
+- Interview Question Generator
+- Dark Mode UI
+- Recruiter Dashboard
+- Database Integration
+- Authentication System
+
+---
+
+# Author
+
+Akshat Singh
+
+Aspiring AI Engineer | Data Scientist | Machine Learning Enthusiast
+
+LinkedIn:
+www.linkedin.com/in/akshat-rajput-494378399
+
+
+
+---
+
+# License
+
+This project is open-source and available under the MIT License.
