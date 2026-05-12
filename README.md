@@ -10,7 +10,7 @@ This application analyzes resumes, extracts skills, calculates ATS scores, recom
 
 Add your deployed Streamlit link here:
 
-https://ai-resume-screening-system-crbdwqg6buvoee2klrjmvy
+ai-resume-screening-system-crbdwqg6buvoee2klrjmvy
 .streamlit.app
 
 ---
